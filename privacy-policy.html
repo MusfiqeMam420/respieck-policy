@@ -1,64 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Privacy Policy – Respieck</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    line-height: 1.6;
-    color: #333;
-  }
-  h1 { font-size: 28px; }
-  h2 { margin-top: 30px; }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Respieck</title>
+
+  <style>
+    body {
+      font-family: "Inter", "Poppins", Arial, sans-serif;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      background: white;
+      margin: 40px auto;
+      padding: 40px 50px;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 6px;
+      color: #111;
+    }
+
+    h2 {
+      margin-top: 35px;
+      color: #222;
+      font-size: 22px;
+    }
+
+    .updated {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 25px;
+    }
+
+    .highlight {
+      background: #eef4ff;
+      border-left: 5px solid #4a7dff;
+      padding: 14px 16px;
+      border-radius: 4px;
+      margin: 25px 0;
+      font-size: 15px;
+    }
+
+    ul {
+      margin: 10px 0 10px 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      color: #777;
+      font-size: 14px;
+    }
+
+    a {
+      color: #4a7dff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<h1>Privacy Policy – Respieck</h1>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: January 2025</p>
 
-<p><strong>Last Updated:</strong> January 2025</p>
+    <div class="highlight">
+      <strong>Respieck – Responsive Tester</strong> is designed with privacy first.  
+      We do not collect, store, transmit, or share any personal data — ever.
+    </div>
 
-<p>
-Respieck – Responsive Tester is designed with privacy in mind.  
-This extension does <strong>not collect</strong>, store, transmit, or share any kind of personal or usage data.
-</p>
+    <h2>1. Information We Collect</h2>
+    <p>
+      Respieck does <strong>not collect any information</strong> from you or your browser.  
+      Specifically, we do NOT collect:
+    </p>
+    <ul>
+      <li>Personal information</li>
+      <li>Browsing history or visited URLs</li>
+      <li>Form inputs, text, or keystrokes</li>
+      <li>Cookies or authentication data</li>
+      <li>IP addresses or device identifiers</li>
+      <li>Analytics or tracking information</li>
+    </ul>
 
-<h2>Information We Do NOT Collect</h2>
-<p>Respieck does <strong>NOT</strong> collect any of the following:</p>
-<ul>
-  <li>Personal information (name, email, address, etc.)</li>
-  <li>Browsing history</li>
-  <li>User activity, clicks, scroll data, keystrokes</li>
-  <li>Analytics, tracking data, or identifiers</li>
-  <li>Device information or IP address</li>
-  <li>Files, cookies, or site data</li>
-</ul>
+    <p>All processing happens locally in your browser.</p>
 
-<h2>Permissions Explanation</h2>
-<p>
-The extension uses <strong>activeTab</strong>, <strong>scripting</strong>, <strong>tabs</strong>, 
-and access to <strong>all URLs</strong> only to allow you to preview and test a webpage in different device sizes.  
-No data is collected, sent, or stored.
-</p>
+    <h2>2. How Respieck Works</h2>
+    <p>
+      Respieck temporarily adds a local overlay panel to the webpage you choose,  
+      allowing you to preview responsive sizes and use the measurement ruler.  
+      This process uses **no external servers, no data uploads, and no tracking of any kind**.
+    </p>
 
-<h2>Third-Party Sharing</h2>
-<p>Respieck does <strong>not</strong> share data with any third party.</p>
+    <h2>3. Permissions and Why They Are Needed</h2>
 
-<h2>Changes to This Policy</h2>
-<p>
-If the privacy policy is updated, the new version will be posted on this page.
-</p>
+    <h3>• activeTab</h3>
+    <p>
+      Allows Respieck to run only when you click the extension icon.  
+      Required to display the responsive preview panel.
+    </p>
 
-<h2>Contact</h2>
-<p>
-For questions or concerns, please contact:<br>
-<b>your email here</b>
-</p>
+    <h3>• scripting</h3>
+    <p>
+      Used to inject the UI (panel + ruler) onto the page.  
+      No page content is stored or transmitted.
+    </p>
+
+    <h3>• Host Permission: &lt;all_urls&gt;</h3>
+    <p>
+      Enables the extension to work on any website you choose.  
+      We do NOT access or analyze site content.
+    </p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>
+      Respieck uses <strong>no third-party APIs</strong>, <strong>no analytics</strong>,  
+      and <strong>no external code</strong>.  
+      Everything runs 100% offline and client-side.
+    </p>
+
+    <h2>5. Data Sharing</h2>
+    <p>
+      Because we do not collect any data, we do not and cannot:
+    </p>
+    <ul>
+      <li>Sell your data</li>
+      <li>Share data with third parties</li>
+      <li>Store data on a server</li>
+      <li>Track any user behavior</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Respieck does not collect any information from children or adults.  
+      It is safe for all users.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>
+      If we make changes to this Privacy Policy, we will update the  
+      <strong>Last Updated</strong> date at the top of the page.
+    </p>
+
+    <h2>8. Contact Us</h2>
+    <p>
+      If you have any questions about this Privacy Policy, feel free to contact:
+      <br><br>
+      📧 <strong>musfiqemam420@gmail.com</strong>
+    </p>
+
+    <footer>
+      © 2025 Respieck – Responsive Tester. All rights reserved.
+    </footer>
+
+  </div>
 
 </body>
 </html>
